@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap');
+/* General */
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Fjalla One', sans-serif;
+
+}
+/* General */
+
+/* Sección Hero */
+.hero{
+  height: 300px;
+  /* background-image: url('../images/hero.jpg');
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position: right; */
+  background-color: #1b2127;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.hero h1{
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+  color: white;
+}
+.hero h1 strong{
+  color: #026fff;
+}
+
+/* Header */
+
+.header{
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.menu{
+  height: inherit;
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure{
+  margin: 0;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  height: inherit;
+  padding: 0 10px;
+}
+/* Header */
+
+/* Portfolio */
+
+
+.portfolio{
+  padding: 20px;
+  background: #fafafa;
+}
+ h2{
+   color: #026fff;
+   text-transform: uppercase;
+   font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+ }
+.project{
+  display: flex;
+  background: white;
+  margin: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.project_title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-botton: 10px;
+}
+.project_course{
+  margin: 10px 0;
+
+}
+.project_date{
+  margin: 10px 0;
+}
+.project_url{
+  margin: 10px 0;
+}
+.project_details{
+  width: 500px;
+}
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
+}
+.project_desc{
+  font-size: 20px;
+}
+.project_imageContainer img{
+  width: 500px;
+}
+/* portfolio */
+
+/* evento */
+.event{
+  border: 1px solid red;
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #f4fbff;
+}
+.event_details{
+  margin: 20px 40px;
+  margin-top: -20px;
+  background: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event_desc{
+  text-align: left;
+}
+.event_url{
+  color: #056fff;
+  border-radius:  1px solid;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+.event_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event_list_title{
+  margin-left: 20px;
+}
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+
+}
+/* evento */
+.contact{
+  background: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+.social-link.twitter{
+  background-image: url(../images/twitter.svg);
+}
+.social-link.facebook{
+  background-image: url(../images/facebook.svg);
+}
+.social-link.github{
+  background-image: url(../images/github.svg);
+}
+.social-link.instagram{
+  background-image: url(../images/instagram.svg);
+}
+.form-email input{
+   border-color: gray;
+   border-style: solid;
+   border-radius: 5px;
+   padding: 10px 20px 10px 25px;;
+   background-image: url(../image/envelope.svg);
+   background-size: 15px 15px;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   background-position-x: 5px;
+}
+.form-email h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.button{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  width: 100px;
+  margin: 10px auto 0;
+  padding: 10px 0;
+  cursor: pointer;
+}
+/* footer */
+.footer{
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a{
+  color: white;
+}
+.footer img{
+  vertical-align: middle;
+}
+/* footer */
+
+.container{
+  width: 60%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  margin: 0px auto;
+  flex-wrap: inherit;
+}
